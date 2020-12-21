@@ -8,6 +8,7 @@ let b;
 b = 8;
 console.log(b);
 
-const c=10;
+const c;
+c=10;
 
 console.log(c);
