@@ -3,8 +3,11 @@ var a ;
 var a ;
 a = 6;
 console.log(a);
-let b;
-let b;
+
 let b;
 b = 8;
 console.log(b);
+
+const c=10;
+
+console.log(c);
