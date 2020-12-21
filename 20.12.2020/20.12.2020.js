@@ -6,9 +6,10 @@ console.log(a);
 
 let b;
 b = 8;
+b=12;
 console.log(b);
 
-const c;
-c=10;
+const c=10;
+c=30;
 
 console.log(c);
