@@ -13,19 +13,14 @@
 // c=30;
 
 // console.log(c);
-console.log("If you have senior citizen and have MBBS, you got Visa")
+console.log("If you are senior citizen and have MBBS,then you got Visa")
 const age = 66;
 let eligible = false;
 let s_citizen = false;
 let y_citizen =false;
-let education = false
 
-if (age >=60 && education == "Matric" ) {
+if (age >=60 ) {
     s_citizen = true;
     y_citizen = false;
-    education = false;
-    console.log("you are S_Citzen but not MBbS, Rejected to get Visa");
-    
+    console.log("");
 }
-else if()
-
