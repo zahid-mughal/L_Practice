@@ -1,26 +1,28 @@
-// var a ; 
-// var a ;
-// var a ;
-// a = 6;
-// console.log(a);
-
-// let b;
-// b = 8;
-// b=12;
-// console.log(b);
-
-// const c=10;
-// c=30;
-
-// console.log(c);
-console.log("If you are senior citizen and have MBBS,then you got Visa")
-const age = 66;
+let old = false;
+let young = false;
 let eligible = false;
-let s_citizen = false;
-let y_citizen =false;
 
-if (age >=60 ) {
-    s_citizen = true;
-    y_citizen = false;
-    console.log("");
+const age = 12;
+
+
+if (age >= 60) {
+             old = true;
+             young = false;
+             eligible = true;
+             console.log("You are  Senior Citizen and Eligible for Visa");
+} else if (age >= 20) {
+             old = false;
+             young = true;
+             eligible = true;
+             console.log("You are Young and Eligible for Visa");
+} else if ( age >= 13) {
+	         old = false;
+             young = false;
+             eligible = false;
+             console.log("You are just a Teenage, you are NOT Eligible for Visa");
+}  else{
+             old = false;
+             young = false;
+             eligible = false;
+            console.log("You are just a Child, you are NOT Eligible for Visa");
 }
