@@ -2,7 +2,7 @@ let old = false;
 let young = false;
 let eligible = false;
 
-const age = 12;
+const age = 65;
 
 
 if (age >= 60) {
