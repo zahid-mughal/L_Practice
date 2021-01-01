@@ -1,4 +1,5 @@
 let fName = "Muhammad";
 let lName = "Zahid";
-let fullName = fName + lName;
-console.log("My Full Name s: ",fullName);
+let greet = "Hello "+fName +" "+ lName;
+
+console.log("Greeting one ",greet);
