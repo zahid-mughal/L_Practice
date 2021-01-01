@@ -7,3 +7,4 @@ return myName;
 }
 setVal("zahid");
 console.log("My First Name is "+myName);
+console.log("My First Name is ",myName);
