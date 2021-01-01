@@ -9,4 +9,4 @@ function fullName(fName,lName){
  return `${fName} ${lName}`;
 }
 console.log(fullName("Muhammad","zahid"));
-console.log(`Hello ${fullName("Muhammad","Zahid")}`);
+console.log(`Hello ${fullName("Muhammad","Zahid")} ${1+2}`);
